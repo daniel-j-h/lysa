@@ -8,10 +8,10 @@ don't have a list yet).
 ```
 git clone https://github.com/learnmath/lysa.git -b develop
 cd lysa/book
-./build
+make
 ```
 
-The build script is not dangerous, you can look at it if you want. It builds the
+The makefile is not dangerous, you can look at it if you want. It builds the
 book, and generates it into a file called `lysa.pdf` in the `book/`
 directory. If you have a slow computer, it might take about 30 seconds or so to
 build. On a fast computer, it will take less than a second. We don't include the

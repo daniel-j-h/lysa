@@ -6,8 +6,12 @@
   \anauthor{Peter Harpending}{pharpend2@gmail.com}
   \anauthor{Anton Golov}{jesyspa@gmail.com}
   \anauthor{Wei En Ng}{wei2912.supp0rt@gmail.com}
+  \anauthor{Daniel J. Hofmann}{daniel+lysa@trvx.org}
   % Randy Brown \\
 }
+
+% enable warnings first
+\usepackage[l2tabu, orthodox]{nag}
 
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -30,7 +34,7 @@
 \Crefname{subsubsection}{\S}{\S}
 \Crefname{paragraph}{\S}{\S}
 
-\addbibresource{1-introduction.bib}
+\addbibresource{bibliographies/1-introduction.bib}
 
 \setlength{\parskip}{2ex}
 
@@ -49,8 +53,8 @@
 \begin{document}
 \maketitle
 \tableofcontents
-\input{1-introduction.ltx}
-\input{2-peano-axioms.ltx}
+\input{chapters/1-introduction.ltx}
+\input{chapters/2-peano-axioms.ltx}
 \newpage
 \printbibliography
 \end{document}

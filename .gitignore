@@ -1,1 +1,2 @@
-/book/lysa.pdf
+/book/lysa*
+!/book/lysa.ltx
